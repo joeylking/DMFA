@@ -6,12 +6,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
     
     <title>Donna Martin Fine Art</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
         <a class="navbar-brand" href="#">Donna Martin Fine Art</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,24 +47,32 @@
     <div class="container-fluid">
 
         <div class="row row-content">
-            <div class="col-md p-0 mt-md-4">
+            <div class="col-md p-0 mt-md-4 mb-md-4">
                 <img src="Images/dmfa1.jpeg" class="img-fluid" alt="Painting with aspens and red flowers">
             </div>
-            <div class="col-md p-0 mt-md-2">
+            <div class="col-md p-0 mt-md-2 mb-md-4">
                 <img src="Images/dmfa2.jpeg" class="img-fluid" alt="Purple and orange mixed media art with a bird on a leaf">
             </div>
-            <div class="col-md p-0 mt-md-4">
+            <div class="col-md p-0 mt-md-4 mb-md-4">
                 <img src="Images/dmfa3.jpeg" class="img-fluid" alt="Painting of grey trees">
             </div>
-            <div class="col-md p-0 mt-md-3">
+            <div class="col-md p-0 mt-md-3 mb-md-4">
                 <img src="Images/dmfa4.jpeg" class="img-fluid" alt="Blue and green mixed media painting of an elephant">
             </div>
         </div>
 
     </div>
 
-    <footer>
-
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col text-center">
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/donnamartinfineart/"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/donnamartinfineart/"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a role="button" class="btn" href="mailto:saltlightwatercolors@yahoo.com"><i class="far fa-envelope fa-lg"></i> </a> 
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
